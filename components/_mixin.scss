@@ -1,0 +1,7 @@
+// a連結用的背景圖設定
+@mixin bgImg ($bgImg_width, $bgImg_height, $bgImg_url) {
+	width: $bgImg_width;
+	height: $bgImg_height;
+	background: url($bgImg_url) no-repeat;
+	background-size: cover;
+}

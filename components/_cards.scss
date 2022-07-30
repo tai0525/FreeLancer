@@ -1,0 +1,25 @@
+.cards {
+    transition: all 0.2s ease;
+    cursor: pointer;
+
+    &:hover {
+    transform: scale(1.1);
+    }
+}
+
+.favorite {  // a
+    @include bgImg (23px, 20px, "https://upload.cc/i1/2021/12/20/urtNJz.png");
+    position: absolute;
+    top: 9px;
+    left: 9px;
+
+    &:hover {
+        background-image: url("https://upload.cc/i1/2021/12/20/1hCT0y.png");
+    }
+}
+
+.click_favorite{
+    background-image: url("https://upload.cc/i1/2021/12/20/1hCT0y.png");
+}
+
+
